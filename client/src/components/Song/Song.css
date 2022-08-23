@@ -1,0 +1,109 @@
+.song-container {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.song-container:hover {
+    background: #3c3c3c;
+}
+
+.song-container:hover .song-artist {
+    color: #fff;
+}
+
+.song-container:hover .ar-button {
+    background: #3c3c3c;
+}
+
+.song-container:hover .song-index {
+    display: none;
+}
+
+.song-container:hover .song-play,
+.song-container:hover .song-pause {
+    display: block;
+}
+
+.song-index {
+    position: absolute;
+    margin-right: 3rem;
+    top: 1.2rem;
+    left: 1.1rem;
+    color: #9a9595;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.song-play,
+.song-pause {
+    display: none;
+    position: absolute;
+    top: 1.2rem;
+    left: 0.7rem;
+}
+
+.song-play.active path,
+.song-pause.active path {
+    fill: var(--green);
+}
+
+.song-container path {
+    fill: var(--white);
+}
+
+.song-image {
+    margin-left: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.song-title {
+    margin-left: 3rem;
+    position: absolute;
+    top: 9px;
+    left: 4rem;
+    color: #fff;
+    font-size: 17px;
+}
+
+.song-artist {
+    margin-left: 3rem;
+    position: absolute;
+    top: 32px;
+    left: 4rem;
+    color: #9a9595;
+    font-size: 14px;
+}
+
+.song-plays {
+    color: #9a9595;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    top: 1.3rem;
+    right: 26rem;
+}
+
+.ar-button {
+    background: #202020;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    padding: 0.45rem 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 0.8rem;
+    right: 5rem;
+}
+
+.ar-button:hover {
+    border-color: #fff;
+    transform: scale(1.05);
+}
+
+.like-song-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+}

@@ -1,0 +1,107 @@
+.playlist-title-header {
+    color: #fff;
+    text-align: center;
+    margin-bottom: -1rem;
+    margin-top: -1rem;
+}
+
+.th {
+    padding: 1rem 1rem 0;
+    color: #9a9595;
+}
+
+.th:nth-child(2) {
+    padding: 1rem 0.7rem 0;
+}
+
+.th:nth-child(3) {
+    position: absolute;
+    right: 27rem;
+}
+
+.searchP {
+    color: #fff;
+    font-size: 20px;
+}
+
+.searchInput {
+    outline: 0;
+    width: 25rem;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+    margin-right: 5rem;
+}
+
+.playlist-btn {
+    border: 1px solid #0fdd59;
+    border-radius: 30px;
+    color: #000;
+    background-color: #0fdd59;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 1.5rem;
+    transition: transform 0.1s;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    position: absolute;
+}
+
+.playlist-btn:hover {
+    transform: scale(1.05);
+}
+
+.playlist-btn-edit {
+    right: 0;
+    margin-right: 16rem;
+}
+
+.playlist-btn-delete {
+    right: 0;
+}
+
+.playlistLike {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    transform: rotate(45deg);
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+}
+
+.playlistLike::before,
+.playlistLike::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.playlistLike::before {
+    top: -10px;
+    left: 0;
+}
+
+.playlistLike::after {
+    top: 0;
+    left: -10px;
+}
+
+.playlistLike:hover,
+.playlistLike:hover:after,
+.playlistLike:hover:before {
+    background-color: #0fdd59;
+}
+
+.playlistLike.active,
+.playlistLike.active:after,
+.playlistLike.active:before {
+    background-color: #0fdd59;
+}

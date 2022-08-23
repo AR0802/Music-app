@@ -1,0 +1,10 @@
+.panel {
+    background-color: #191818;
+    margin-left: 15rem;
+    padding: 2rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

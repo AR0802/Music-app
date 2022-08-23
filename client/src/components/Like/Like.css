@@ -1,0 +1,40 @@
+.like {
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.like::before,
+.like::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.like::before {
+    top: -5px;
+    left: 0;
+}
+
+.like::after {
+    top: 0;
+    left: -5px;
+}
+
+.like:hover,
+.like:hover:after,
+.like:hover:before {
+    background-color: #0fdd59;
+}
+
+.like.active,
+.like.active:after,
+.like.active:before {
+    background-color: #0fdd59;
+}

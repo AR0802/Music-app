@@ -1,0 +1,35 @@
+.playlist-container {
+    width: 13rem;
+    height: 18rem;
+    background: #292929;
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    transition: .3s;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.playlist-container:hover {
+    background: #393535;
+}
+
+.playlist-image {
+    width: 11rem;
+    height: 11rem;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.playlist-title {
+    color: #fff;
+    font-weight: 600;
+    padding-left: 2px;
+}
+
+.playlist-description {
+    color: #757376;
+    font-size: 16px;
+    padding-left: 2px;
+    margin-top: -9px;
+}

@@ -1,0 +1,13 @@
+.navItemsContainer {
+    width: 15rem;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+}
+
+.userNameP {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2rem;
+}

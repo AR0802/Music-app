@@ -1,0 +1,29 @@
+:root {
+    --white: #fff;
+    --green: #0fdd59;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.audio-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto 15px;
+}
+  
+.audio-controls .prev svg,
+.audio-controls .next svg,
+.audio-controls .play svg,
+.audio-controls .pause svg {
+    width: 30px;
+    height: 30px;
+}
+  
+.audio-controls path {
+    fill: var(--white);
+}

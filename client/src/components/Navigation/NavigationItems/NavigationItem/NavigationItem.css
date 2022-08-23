@@ -1,0 +1,21 @@
+.navigationItem {
+    text-decoration: none;
+    color: #878787;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+
+.navigationItem:hover {
+    color: #fff;
+}
+
+.navigationItem--active {
+    color: #fff;
+}
+
+.navigationItem:nth-of-type(2),
+.navigationItem:nth-of-type(5) {
+    margin-bottom: 1.5rem;
+}

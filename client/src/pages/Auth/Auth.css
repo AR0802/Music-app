@@ -1,0 +1,52 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 40rem;
+    }
+} 
+
+/* Signup */
+h1 {
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+.signupLink {
+    color: #0fdd59;
+}
+
+.signupLink:hover {
+    color: #00ff5c;
+}
+
+/* Login */
+.container--pad {
+    padding-top: 2rem;
+}
+
+.loginP {
+    font-weight: 600;
+    font-size: large;
+    padding-bottom: 3%;
+}
+
+.loginLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #878787;
+    padding: 2.5% 15%;
+    border: 1px solid #878787;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.loginLink:hover {
+    border-color: #000;
+}

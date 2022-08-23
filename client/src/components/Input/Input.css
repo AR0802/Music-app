@@ -1,0 +1,25 @@
+.input_container {
+    padding-bottom: 5%;
+}
+
+.input_label {
+    display: block;
+    text-align: left;
+    margin-left: 12.5%;
+    padding-bottom: 1.5%;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input_text {
+    width: 75%;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    padding: 2.5%;
+    font-size: 15px;
+}
+
+.input_file {
+    background: #fff;
+}
